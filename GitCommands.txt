@@ -1,0 +1,23 @@
+
+			|| Git Commands ||
+
+git init 			-> to initialize git
+
+git add <filename> 		-> to add in git repo
+
+git status 			-> to see changes to be commited
+
+git commit -m "some message"	-> to commit files -m is for writing a commit message
+
+git log 			-> to see the number of commits
+
+git diff <filename>		-> to see the difference between the prev and the new version
+
+git checkout <filename>		-> to rollback to previous version.
+
+			|| Git Remote Commands ||
+
+git remote add origin <URL from git hub>   -> origin is the name of the remote.
+
+git push -u origin master 		   -> -u flag is to push from local repo to remote, origin is the name of the remote repo and master is the branch.
+
