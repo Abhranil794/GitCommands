@@ -13,7 +13,11 @@ git log 			-> to see the number of commits
 
 git diff <filename>		-> to see the difference between the prev and the new version
 
+git restore <filename>		-> restore a file
+
 git checkout <filename>		-> to rollback to previous version.
+
+git rm --cached -r <file name>  -> remove files from the staging area
 
 			|| Git Remote Commands ||
 
@@ -21,3 +25,7 @@ git remote add origin <URL from git hub>   -> origin is the name of the remote.
 
 git push -u origin master 		   -> -u flag is to push from local repo to remote, origin is the name of the remote repo and master is the branch.
 
+
+			|| Branching ||
+
+git checkout <branchname>	-> will create a new branch or switch to that branch
