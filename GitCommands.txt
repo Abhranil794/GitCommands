@@ -29,3 +29,16 @@ git push -u origin master 		   -> -u flag is to push from local repo to remote, 
 			|| Branching ||
 
 git checkout <branchname>	-> will create a new branch or switch to that branch
+
+git branch -d <branchname>	-> to delete a branch. never reuse a branch
+
+git pull origin <branchname> 		-> this will pull the latest code from the remote repo.
+
+			|| Git Commands in flow ||
+
+git init -> git add . -> git commit -m "message" -> setup remote repo -> git remote add origin <URL from git hub>
+git push -u origin master
+
+			|| Git Clone Commands ||
+			
+git clone <repo link> -> git checkout -b <branchname> -> git add . -> git commit -m "message" -> git push -u origin master -> Create a PR.
